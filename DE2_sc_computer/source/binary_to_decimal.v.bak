@@ -1,0 +1,4 @@
+module binary_to_decimal(out_port,out_decimal_high,out_decimal_low);
+	
+	
+	

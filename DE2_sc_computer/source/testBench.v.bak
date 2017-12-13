@@ -1,0 +1,27 @@
+module testBench(resetn,clock,mem_clk,pc,inst,aluout,memout,imem_clk,dmem_clk);
+	input resetn,clock,mem_clk;
+	input [31:0] pc,inst,aluout,memout;
+   input        imem_clk,dmem_clk;
+	
+	sc_computer testBench(resetn,clock,mem_clk,pc,inst,aluout,memout,imem_clk,dmem_clk);
+	
+	initial
+		begin
+		resetn = 0;
+		clock = 0;
+		mem_clk = 0;
+		pc = 0;
+		inst = 0;
+		aluout = 0;
+		memout = 0;
+		imem_clk = 0;
+		dmem_clk = 0;
+		end
+	
+	always
+		begin
+		#50 mem_clk = ~mem_clk;
+		#100 clock = ~clock;
+		end
+
+endmodule

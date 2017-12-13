@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clock'
+Slack : -17.749
+TNS   : -7119.287
+
+Type  : Slow Model Setup 'pipelined_computer_original:PCO|pipeemreg:em_reg|malu[3]'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clock'
+Slack : -2.256
+TNS   : -17.495
+
+Type  : Slow Model Hold 'pipelined_computer_original:PCO|pipeemreg:em_reg|malu[3]'
+Slack : -0.947
+TNS   : -4.189
+
+Type  : Slow Model Minimum Pulse Width 'clock'
+Slack : -2.000
+TNS   : -1787.456
+
+Type  : Slow Model Minimum Pulse Width 'pipelined_computer_original:PCO|pipeemreg:em_reg|malu[3]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clock'
+Slack : -7.418
+TNS   : -2887.770
+
+Type  : Fast Model Setup 'pipelined_computer_original:PCO|pipeemreg:em_reg|malu[3]'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clock'
+Slack : -1.499
+TNS   : -75.582
+
+Type  : Fast Model Hold 'pipelined_computer_original:PCO|pipeemreg:em_reg|malu[3]'
+Slack : -0.324
+TNS   : -1.007
+
+Type  : Fast Model Minimum Pulse Width 'clock'
+Slack : -2.000
+TNS   : -1787.456
+
+Type  : Fast Model Minimum Pulse Width 'pipelined_computer_original:PCO|pipeemreg:em_reg|malu[3]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

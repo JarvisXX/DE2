@@ -1,0 +1,2 @@
+module pipelined_computer(resetn,clock,mem_clock,pc,inst,ealu,malu,walu);
+//定义顶层模块

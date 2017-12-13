@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="pipelined_computer">
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipelined_computer|binary_to_decimal:num0|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_h6m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipelined_computer|binary_to_decimal:num1|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_eem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipelined_computer|binary_to_decimal:num2|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_h6m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipelined_computer|pipelined_computer_original:PCO|pipeif:if_stage|lpm_rom_irom:irom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_6ed1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipelined_computer|pipelined_computer_original:PCO|pipemem:mem_stage|lpm_ram_dq_dram:dram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_jsg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipelined_computer|binary_to_decimal:num0|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_eem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipelined_computer|binary_to_decimal:num1|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_h6m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipelined_computer|binary_to_decimal:num2|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_eem.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

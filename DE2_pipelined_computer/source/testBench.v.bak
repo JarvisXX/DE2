@@ -1,0 +1,20 @@
+`timescale 1 ps / 1 ps
+module testBench;
+	reg				resetn, clock, mem_clock;
+	wire	 [31:0]	pc, inst, ealu, malu, walu;
+	
+	pipelined_computer testBench (resetn, clock, mem_clock, pc, inst, ealu, malu, walu);
+	
+	initial
+		begin
+		resetn = 0;
+		#10 resetn = 1;
+			 clock = 0;
+			 mem_clock = 1;
+		end
+	
+	always
+		#10 clock = ~clock;
+			 mem_clock = ~mem_clock;
+
+endmodule
